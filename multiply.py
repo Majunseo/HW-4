@@ -7,10 +7,10 @@ def times(number_list):
 def main():
     numbers = input("곱할 숫자들을 공백으로 구분하여 입력하세요: ")
     if numbers.strip() == "":
-        print("입력값이 비어 있습니다.")
+        print("숫자를 하나 이상 입력해주세요.")
         return
     number_list = map(float, numbers.split())
     result = times(number_list)
-    print(result, "입니다")
+    print("곱셈 결과는", result, "입니다")
 if __name__ == "__main__":
     main()
