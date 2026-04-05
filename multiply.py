@@ -1,7 +1,7 @@
 def times(number_list):
     sum_value = 1
     for number in number_list:
-        sum_value *= number
+        sum_value += number
     return sum_value
 
 def main():
